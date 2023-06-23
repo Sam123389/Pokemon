@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body {
+    font-family: 'Geologica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #acdf98;  
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2d4059;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #pokename {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #acdf98;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .pokemon-list-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pokemon-list-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .pokemon-name {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .abilities-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .poke-otros {
+    margin-top: 10px;
+    color: #2d4059;
+  }
+  
+  .detalles-container {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .detalles-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d4059;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .detalles-container button:hover {
+    background-color: #1e293b;
+  }
+  
+  .detalles-container ul {
+    margin-top: 10px;
+  }
+  
+  .detalles-container li {
+    margin-bottom: 5px;
+    color: #2d4059;
+  }
